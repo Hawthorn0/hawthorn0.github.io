@@ -1,3 +1,4 @@
+# Art I Made in Class
 ## Surreal
 ![Surreal](assets/Surreal.jpg)
 ## Pattern
