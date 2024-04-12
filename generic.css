@@ -1,0 +1,32 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(34, 35, 36);
+}
+div#wrapper {
+    width: 80%;
+    margin: 5% auto 0 auto;
+    background-color: rgb(203, 222, 223);
+    padding: 3%;
+}
+div#head {
+    text-align: center;
+}
+div#part1 {
+    border: rgba(0, 0, 0, 0.9) 10px solid;
+    border-radius: 10px;
+}
+div#part2 {
+    border: rgba(0, 0, 0, 0.5) 10px solid;
+}
+div#part1, div#part2 {
+    margin: 0 auto 0 auto;
+}
+h1, h2, h3, p, ul {
+    color: rgb(0, 59, 68);
+    margin-left: 2%;
+}
+li {
+    margin-bottom: 1%;
+}
