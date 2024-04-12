@@ -1,1 +1,1 @@
-Website :)
+This is a website I use to share information about Birdthorn Games and Beat Thorn music
