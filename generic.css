@@ -2,13 +2,15 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-color: rgb(34, 35, 36);
+    background-image: url("assets/Background.png");
+    background-size: 100%;
 }
 div#wrapper {
     width: 80%;
     margin: 5% auto 0 auto;
-    background-color: rgb(203, 222, 223);
+    background-color: rgb(216, 232, 232);
     padding: 3%;
+    border-radius: 12px;
 }
 div#head {
     text-align: center;
