@@ -2,8 +2,9 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-image: url("assets/Background.png");
-    background-size: 100%;
+    /*background-image: url("assets/Background.png");
+    background-size: 100%;*/
+    background-color: rgb(54, 60, 61);
 }
 div#wrapper {
     width: 80%;
