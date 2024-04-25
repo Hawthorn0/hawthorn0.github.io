@@ -13,17 +13,19 @@ div#wrapper {
     padding: 3%;
     border-radius: 12px;
 }
-div#head {
+header, footer {
     text-align: center;
+    clear: both;
+    margin-top: 4%;
 }
-div#part1 {
+div.part1 {
     border: rgba(0, 0, 0, 0.9) 10px solid;
     border-radius: 10px;
 }
-div#part2 {
+div.part2 {
     border: rgba(0, 0, 0, 0.5) 10px solid;
 }
-div#part1, div#part2 {
+div.part1, div.part2 {
     margin: 0 auto 0 auto;
 }
 h1, h2, h3, p, ul {
