@@ -6,7 +6,7 @@ body {
     background-color: rgb(54, 60, 61);
 }
 
-@media only screen and (max-width: 768px) {
+@media (pointer:none), (pointer:coarse) {
     body {
         background-color: lightgreen;
     }
