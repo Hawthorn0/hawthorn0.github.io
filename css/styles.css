@@ -6,7 +6,7 @@ body {
     background-color: rgb(54, 60, 61);
 }
 
-@media (pointer:none), (pointer:coarse) {
+@media (max-resolution: 1dppx) {
     body {
         background-color: lightgreen;
     }
