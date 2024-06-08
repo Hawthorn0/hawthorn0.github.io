@@ -30,7 +30,7 @@ nav ul {
 nav li {
     list-style-type: none;
     float: left;
-    width: 30%;
+    width: 25%;
     text-align: center;
 }
 
@@ -47,7 +47,8 @@ nav a:hover {
 
 .home nav li:nth-child(1) a,
 .music nav li:nth-child(2) a,
-.news nav li:nth-child(3) a {
+.news nav li:nth-child(3) a,
+.art nav li:nth-child(4) a {
     background: rgb(54, 60, 61);
     color: rgb(239, 255, 255);
 }
@@ -121,6 +122,30 @@ footer li {
 .musicheader {
     color: rgb(243, 226, 255);
     margin: 4%;
+}
+
+.row {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: -4px;
+}
+
+.third {
+    width: 31.91%;
+    margin: 0px 10px;
+    float: left;
+}
+
+.third:first-of-type {
+    margin-left: 0px;
+}
+
+.third:last-of-type {
+    margin-right: 0px;
+}
+
+.third img {
+    width: 100%;
 }
 
 div.part2 {
