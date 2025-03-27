@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
-    max-width: 100%; 
+    max-width: 80%; 
     padding: 10px;
     overflow: hidden; 
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    background-color: rgb(238, 255, 255);
     margin: 10px auto;
     align-items: center;
     justify-content: space-between;
@@ -47,20 +47,33 @@ label:has(input[type="checkbox"]:checked) {
     cursor: pointer;
 }
 
+#mp3-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    max-width: 75%; 
+    padding: 20px;
+    overflow: hidden; 
+    border-radius: 2px;
+    background-color: rgb(243, 255, 255);
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 #mp3-container .mp3-item {
     border: rgb(69, 69, 69) 5px solid;
     background-color: rgb(43, 41, 45);
     border-radius: 25px; 
     overflow: hidden;
-    padding: 10px 5px 5px 5px;
+    padding: 0px 5px 5px 10px;
 }
 
 #mp3-container .mp3-item h3 {
     color: rgb(243, 226, 255);
-    white-space: nowrap;
 }
 
 #mp3-container .mp3-item audio {
-    float: left;
     margin: 0px 20px 0px 0px;
 }

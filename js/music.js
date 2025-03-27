@@ -385,8 +385,8 @@ function displayMP3Files(files) {
         //const tags = document.createElement("p");
         //tags.textContent = "Tags: " + mp3.tags.join(", ");
 
-        div.appendChild(audio);
         div.appendChild(title);
+        div.appendChild(audio);
         //div.appendChild(tags);
         container.appendChild(div);
     });
