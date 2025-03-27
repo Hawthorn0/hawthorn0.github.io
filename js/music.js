@@ -374,22 +374,13 @@ function displayMP3Files(files) {
     files.forEach(mp3 => {
         const div = document.createElement("div");
         div.classList.add("mp3-item");
-        div.style.border = "rgb(69, 69, 69) 5px solid";
-        div.style.backgroundColor = "rgb(43, 41, 45)";
-        div.style.borderRadius = "25px";
-        div.style.overflow = "hidden";
-        div.style.padding = "10px 5px 5px 5px";
 
         const title = document.createElement("h3");
         title.textContent = mp3.title;
-        title.style.color = "rgb(243, 226, 255)";
-        title.style.whiteSpace = "nowrap";
 
         const audio = document.createElement("audio");
         audio.controls = true;
         audio.src = mp3.file;
-        audio.style.float = "left";
-        audio.style.margin = "0px 20px 0px 0px";
 
         //const tags = document.createElement("p");
         //tags.textContent = "Tags: " + mp3.tags.join(", ");

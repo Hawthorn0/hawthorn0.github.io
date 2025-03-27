@@ -46,3 +46,21 @@ label:has(input[type="checkbox"]:checked) {
     font-size: 16px;
     cursor: pointer;
 }
+
+#mp3-container .mp3-item {
+    border: rgb(69, 69, 69) 5px solid;
+    background-color: rgb(43, 41, 45);
+    border-radius: 25px; 
+    overflow: hidden;
+    padding: 10px 5px 5px 5px;
+}
+
+#mp3-container .mp3-item h3 {
+    color: rgb(243, 226, 255);
+    white-space: nowrap;
+}
+
+#mp3-container .mp3-item audio {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
