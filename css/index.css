@@ -1,0 +1,46 @@
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    max-width: 75%; 
+    padding: 10px;
+    overflow: hidden; 
+    border-radius: 2px;
+    margin: 60px auto 100px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase .show-box {
+    border: rgb(80, 65, 95) 5px solid;
+    background-color: rgb(48, 44, 52);
+    border-radius: 25px; 
+    overflow: hidden;
+    width: 40%;
+    max-width: 40%;
+    height: 330px;
+    padding: 0px 5px 5px 10px;
+}
+
+.showcase .show-box h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.showcase .show-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px 15px 0px 235px;
+}
+
+.showcase .show-box img {
+    width: 210px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 25px;
+    float: left;
+}
+
+.showcase .show-box img:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}

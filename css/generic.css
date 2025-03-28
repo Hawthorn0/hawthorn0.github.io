@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(29, 28, 30);
 }
 
 nav {
@@ -11,7 +11,7 @@ nav {
     flex-wrap: wrap;
     gap: 10px; 
 
-    background-color: rgb(227, 231, 234);
+    background-color: rgb(48, 44, 52);
     position: fixed;
     width: 100%;
     max-width: 100%; 
@@ -28,9 +28,9 @@ nav img {
 }
 
 nav button {
-    padding: auto 50px;
     border: 0px solid rgb(255, 255, 255, 0);
     background-color: rgb(255, 255, 255, 0);
+    color: rgb(251, 243, 255);
     border-radius: 25px;
     padding: 0px 15px;
     cursor: pointer;
@@ -38,18 +38,41 @@ nav button {
 }
 
 #wrapper {
-    margin: 50px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
     border-radius: 12px;
     width: 100%;
     max-width: 100%; 
 }
 
 footer {
-    background-color: rgb(239, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+
+    background-color: rgb(48, 44, 52);
     text-align: center;
+    margin: auto;
     line-height: 50px;
-    width: 100%;
-    max-width: 100%; 
+    width: 95%;
+    max-width: 95%; 
     height: 50px;
     border-radius: 25px;
+}
+
+footer button {
+    border: 0px solid rgb(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255, 0);
+    color: rgb(214, 204, 218);
+    border-radius: 25px;
+    padding: 0px 15px;
+    margin: auto 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.center-div {
+    text-align: center;
+}
+
+h1, h2, h3, h4, p {
+    color: rgb(251, 243, 255);
 }
