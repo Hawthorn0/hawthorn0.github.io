@@ -44,6 +44,16 @@ nav button {
     max-width: 100%; 
 }
 
+main {
+    width: 61.7%;
+    float: left;
+}
+
+aside {
+    width: 36.17%;
+    float: right;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +83,59 @@ footer button {
     text-align: center;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, li {
     color: rgb(251, 243, 255);
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgb(245, 225, 255);
+}
+
+.infobox {
+    border: rgb(80, 65, 95) 5px solid;
+    background-color: rgb(48, 44, 52);
+    border-radius: 25px; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+.eighty-wrap {
+    max-width: 80%;
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.seventy-five-wrap {
+    max-width: 75%;
+    width: 75%; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.seventy-wrap {
+    max-width: 70%;
+    width: 70%; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.five-break {
+    height: 5px;
+}
+
+.ten-break {
+    height: 10px;
+}
+
+.twenty-break {
+    height: 20px;
+}
+
+.fifty-break {
+    height: 50px;
 }

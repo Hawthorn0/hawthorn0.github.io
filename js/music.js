@@ -17,7 +17,7 @@ const mp3Files = [
     { 
         title: "Autumn Waltz", 
         file: "assets/songs/Autumn Waltz.mp3", 
-        tags: ["upbeat", "waltz"] 
+        tags: ["upbeat", "waltz", "my favorites"] 
     },
     { 
         title: "Bit Waltz", 
@@ -28,6 +28,11 @@ const mp3Files = [
         title: "Broken Road", 
         file: "assets/songs/Broken_Road.mp3", 
         tags: ["electronic", "vocal"] 
+    },
+    { 
+        title: "Building Time", 
+        file: "assets/songs/Building Time.mp3", 
+        tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
     },
     { 
         title: "Christmas Level", 
@@ -62,7 +67,7 @@ const mp3Files = [
     { 
         title: "Evolution", 
         file: "assets/songs/Evolution.mp3", 
-        tags: ["electronic", "chill"] 
+        tags: ["electronic", "chill", "strange"] 
     },
     { 
         title: "Fear", 
@@ -70,9 +75,19 @@ const mp3Files = [
         tags: ["ambient", "scary"] 
     },
     { 
+        title: "Fever Dream", 
+        file: "assets/songs/fever dream.mp3", 
+        tags: ["chill", "strange"] 
+    },
+    { 
         title: "Fire", 
         file: "assets/songs/fire.mp3", 
         tags: ["electronic", "energetic", "upbeat"] 
+    },
+    { 
+        title: "Fresh Beginnings", 
+        file: "assets/songs/Fresh Beginnings.mp3", 
+        tags: ["upbeat", "fantasy", "grassy", "my favorites"] 
     },
     { 
         title: "Piano with Velocity", 
@@ -87,12 +102,22 @@ const mp3Files = [
     { 
         title: "Heaven Boss", 
         file: "assets/songs/Heaven Boss.mp3", 
-        tags: ["energetic", "epic"] 
+        tags: ["energetic", "epic", "bossfight"] 
     },
     { 
         title: "Heavenly Randomness", 
         file: "assets/songs/Heavenly Randomness.mp3", 
         tags: ["energetic"] 
+    },
+    { 
+        title: "Iceflow", 
+        file: "assets/songs/Iceflow.mp3", 
+        tags: ["chill", "icy"] 
+    },
+    { 
+        title: "Icy Winds", 
+        file: "assets/songs/Icy Winds.mp3", 
+        tags: ["icy"] 
     },
     { 
         title: "Irish 2", 
@@ -112,7 +137,12 @@ const mp3Files = [
     { 
         title: "Lotus", 
         file: "assets/songs/Lotus.mp3", 
-        tags: ["rock", "energetic", "epic"] 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Mirage", 
+        file: "assets/songs/Mirage.mp3", 
+        tags: ["fantasy", "deserty", "my favorites"] 
     },
     { 
         title: "Mirror Cemetery", 
@@ -127,7 +157,7 @@ const mp3Files = [
     { 
         title: "Mushroom Village", 
         file: "assets/songs/Mushroom Village.mp3", 
-        tags: ["chill", "silly", "fantasy", "foresty"] 
+        tags: ["chill", "silly", "fantasy", "foresty", "my favorites"] 
     },
     { 
         title: "Old Synth", 
@@ -202,7 +232,7 @@ const mp3Files = [
     { 
         title: "A Symbol of Flame", 
         file: "assets/songs/SAB-MOD A Symbol of Flame.mp3", 
-        tags: ["energetic", "epic", "fantasy"] 
+        tags: ["energetic", "epic", "fantasy", "bossfight"] 
     },
     { 
         title: "Sad Story", 
@@ -212,12 +242,12 @@ const mp3Files = [
     { 
         title: "HW Song 2", 
         file: "assets/songs/School HW Song 2.mp3", 
-        tags: ["electronic", "energetic", "upbeat"] 
+        tags: ["electronic", "energetic", "upbeat", "strange"] 
     },
     { 
         title: "Scorched", 
         file: "assets/songs/Scorched.mp3", 
-        tags: ["deserty"] 
+        tags: ["deserty", "bossfight", "my favorites"] 
     },
     { 
         title: "Screamer", 
@@ -227,7 +257,7 @@ const mp3Files = [
     { 
         title: "Seaboss", 
         file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "fantasy", "watery"] 
+        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
     },
     { 
         title: "Seashore", 
@@ -237,12 +267,12 @@ const mp3Files = [
     { 
         title: "Sequence Vocal", 
         file: "assets/songs/sequencevocal.mp3", 
-        tags: ["electronic", "chill", "foresty"] 
+        tags: ["electronic", "chill", "strange", "foresty"] 
     },
     { 
         title: "Silly Cat Song", 
         file: "assets/songs/silly cat song.mp3", 
-        tags: ["electronic", "retro", "upbeat", "silly", "grassy"] 
+        tags: ["electronic", "retro", "upbeat", "silly", "grassy", "my favorites"] 
     },
     { 
         title: "Simmer", 
@@ -257,7 +287,7 @@ const mp3Files = [
     { 
         title: "Snow Boss", 
         file: "assets/songs/SnowBoss.mp3", 
-        tags: ["electronic", "energetic", "icy"] 
+        tags: ["electronic", "energetic", "bossfight", "icy"] 
     },
     { 
         title: "Space", 
@@ -273,6 +303,11 @@ const mp3Files = [
         title: "Sparkle", 
         file: "assets/songs/Sparkle.mp3", 
         tags: ["electronic", "upbeat", "spacey"] 
+    },
+    { 
+        title: "Stalactite", 
+        file: "assets/songs/Stalactite.mp3", 
+        tags: ["chill", "upbeat", "cavey", "my favorites"] 
     },
     { 
         title: "Static Wave", 
@@ -307,12 +342,17 @@ const mp3Files = [
     { 
         title: "Thing 22", 
         file: "assets/songs/thing22.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "epic"] 
+        tags: ["electronic", "energetic", "upbeat", "strange", "epic"] 
+    },
+    { 
+        title: "Thing 24", 
+        file: "assets/songs/thing24.mp3", 
+        tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
         title: "Upstairs", 
         file: "assets/songs/Upstairs.mp3", 
-        tags: ["rock", "vocal", "silly"] 
+        tags: ["rock", "vocal", "silly", "my favorites"] 
     },
     { 
         title: "Vital Thing", 
@@ -335,6 +375,11 @@ const mp3Files = [
         tags: ["energetic", "cavey"] 
     },
     { 
+        title: "Wavezone", 
+        file: "assets/songs/Wavezone.mp3", 
+        tags: ["electronic", "spacey", "icy", "my favorites"] 
+    },
+    { 
         title: "Winter Waltz", 
         file: "assets/songs/Winter Waltz.mp3", 
         tags: ["chill", "waltz", "icy"] 
@@ -347,8 +392,9 @@ const mp3Files = [
 ];
 
 let tags = ["rock", "electronic", "retro", "vocal", "energetic", "chill", "upbeat", "ambient", "waltz", 
-    "scary", "silly", "sad", "epic", "fantasy", 
-    "grassy", "foresty", "icy", "cavey", "deserty", "spacey", "watery", "misc"];
+    "scary", "silly", "sad", "strange", "epic", "fantasy", "bossfight", 
+    "grassy", "foresty", "icy", "cavey", "deserty", "spacey", "watery", 
+    "my favorites"];
 
 function displayTags() {
     const container = document.getElementById("tag-filters");
