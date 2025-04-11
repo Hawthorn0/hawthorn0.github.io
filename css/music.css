@@ -90,6 +90,6 @@ label:has(input[type="checkbox"]:checked) {
     margin: 1% 1%;
 }
 
-main {
-    margin-top: 10px;
+aside {
+    margin-top: 30px;
 }
