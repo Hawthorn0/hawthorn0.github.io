@@ -102,7 +102,7 @@ const mp3Files = [
     { 
         title: "Upstairs", 
         file: "assets/songs/Upstairs.mp3", 
-        tags: ["rock", "vocal", "silly", "my favorites"] 
+        tags: ["rock", "vocal", "silly"] 
     },
     { 
         title: "Silly Cat Song", 
