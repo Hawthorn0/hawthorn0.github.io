@@ -100,7 +100,7 @@ a {
     background-color: rgb(48, 44, 52);
     border-radius: 25px; 
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .eighty-wrap {

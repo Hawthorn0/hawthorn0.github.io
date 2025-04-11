@@ -1,0 +1,35 @@
+.game-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    max-width: 80%; 
+    overflow: hidden; 
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.game-item {
+    border: rgb(80, 65, 95) 5px solid;
+    background-color: rgb(48, 44, 52);
+    border-radius: 25px; 
+    overflow: hidden;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.game-item img {
+    float: right;
+    height: 100%;
+    max-height: 100%;
+    max-width: 200px;
+    border-radius: 25px; 
+}
+
+.game-item h2, .game-item p {
+    margin-left: 10px;
+}

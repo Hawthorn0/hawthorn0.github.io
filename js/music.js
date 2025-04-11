@@ -1,5 +1,130 @@
 const mp3Files = [
     { 
+        title: "Lotus", 
+        file: "assets/songs/Lotus.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Seaboss", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
+    },
+    { 
+        title: "Wavezone", 
+        file: "assets/songs/Wavezone.mp3", 
+        tags: ["electronic", "spacey", "icy", "my favorites"] 
+    },
+    { 
+        title: "Stalactite", 
+        file: "assets/songs/Stalactite.mp3", 
+        tags: ["chill", "upbeat", "cavey", "my favorites"] 
+    },
+    { 
+        title: "Mirage", 
+        file: "assets/songs/Mirage.mp3", 
+        tags: ["fantasy", "deserty", "my favorites"] 
+    },
+    { 
+        title: "Fresh Beginnings", 
+        file: "assets/songs/Fresh Beginnings.mp3", 
+        tags: ["upbeat", "fantasy", "grassy", "my favorites"] 
+    },
+    { 
+        title: "Building Time", 
+        file: "assets/songs/Building Time.mp3", 
+        tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
+    },
+    { 
+        title: "Iceflow", 
+        file: "assets/songs/Iceflow.mp3", 
+        tags: ["chill", "icy"] 
+    },
+    { 
+        title: "Icy Winds", 
+        file: "assets/songs/Icy Winds.mp3", 
+        tags: ["icy"] 
+    },
+    { 
+        title: "Thing 24", 
+        file: "assets/songs/thing24.mp3", 
+        tags: ["electronic", "energetic", "strange", "my favorites"] 
+    },
+    { 
+        title: "Mirror Cemetery", 
+        file: "assets/songs/Mirror Cemetery.mp3", 
+        tags: ["electronic", "scary"] 
+    },
+    { 
+        title: "Scorched", 
+        file: "assets/songs/Scorched.mp3", 
+        tags: ["deserty", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Autumn Waltz", 
+        file: "assets/songs/Autumn Waltz.mp3", 
+        tags: ["upbeat", "waltz", "my favorites"] 
+    },
+    { 
+        title: "Outerstellar", 
+        file: "assets/songs/Outerstellar.mp3", 
+        tags: ["chill", "epic", "spacey", "my favorites"] 
+    },
+    { 
+        title: "Fire", 
+        file: "assets/songs/fire.mp3", 
+        tags: ["electronic", "energetic", "upbeat"] 
+    },
+    { 
+        title: "Broken Road", 
+        file: "assets/songs/Broken_Road.mp3", 
+        tags: ["electronic", "vocal"] 
+    },
+    { 
+        title: "Dubstep Trial", 
+        file: "assets/songs/dubsteptrial.mp3", 
+        tags: ["electronic", "energetic"] 
+    },
+    { 
+        title: "Screamer", 
+        file: "assets/songs/screamer.mp3", 
+        tags: ["electronic", "scary"] 
+    },
+    { 
+        title: "Fever Dream", 
+        file: "assets/songs/fever dream.mp3", 
+        tags: ["chill", "strange"] 
+    },
+    { 
+        title: "Mushroom Village", 
+        file: "assets/songs/Mushroom Village.mp3", 
+        tags: ["chill", "silly", "fantasy", "foresty", "my favorites"] 
+    },
+    { 
+        title: "Upstairs", 
+        file: "assets/songs/Upstairs.mp3", 
+        tags: ["rock", "vocal", "silly", "my favorites"] 
+    },
+    { 
+        title: "Silly Cat Song", 
+        file: "assets/songs/silly cat song.mp3", 
+        tags: ["electronic", "retro", "upbeat", "silly", "grassy", "my favorites"] 
+    },
+    { 
+        title: "Vocality", 
+        file: "assets/songs/vocality.mp3", 
+        tags: ["vocal", "epic", "fantasy", "foresty"] 
+    },
+    { 
+        title: "Lost in Space", 
+        file: "assets/songs/Lost in Space.mp3", 
+        tags: ["electronic", "chill", "spacy"] 
+    },
+    { 
+        title: "Sad Story", 
+        file: "assets/songs/Sad Story.mp3", 
+        tags: ["chill", "sad", "icy", "spacey"] 
+    },
+    { 
         title: "8-Bit Caveman", 
         file: "assets/songs/8bit caveman.mp3", 
         tags: ["electronic", "retro"] 
@@ -15,24 +140,9 @@ const mp3Files = [
         tags: ["chill", "ambient", "icy"] 
     },
     { 
-        title: "Autumn Waltz", 
-        file: "assets/songs/Autumn Waltz.mp3", 
-        tags: ["upbeat", "waltz", "my favorites"] 
-    },
-    { 
         title: "Bit Waltz", 
         file: "assets/songs/Bit Waltz.mp3", 
         tags: ["retro", "chill", "waltz"] 
-    },
-    { 
-        title: "Broken Road", 
-        file: "assets/songs/Broken_Road.mp3", 
-        tags: ["electronic", "vocal"] 
-    },
-    { 
-        title: "Building Time", 
-        file: "assets/songs/Building Time.mp3", 
-        tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
     },
     { 
         title: "Christmas Level", 
@@ -48,11 +158,6 @@ const mp3Files = [
         title: "Drone", 
         file: "assets/songs/drone.mp3", 
         tags: ["ambient", "scary"] 
-    },
-    { 
-        title: "Dubstep Trial", 
-        file: "assets/songs/dubsteptrial.mp3", 
-        tags: ["electronic", "energetic"] 
     },
     { 
         title: "Ethereal Sands", 
@@ -75,21 +180,6 @@ const mp3Files = [
         tags: ["ambient", "scary"] 
     },
     { 
-        title: "Fever Dream", 
-        file: "assets/songs/fever dream.mp3", 
-        tags: ["chill", "strange"] 
-    },
-    { 
-        title: "Fire", 
-        file: "assets/songs/fire.mp3", 
-        tags: ["electronic", "energetic", "upbeat"] 
-    },
-    { 
-        title: "Fresh Beginnings", 
-        file: "assets/songs/Fresh Beginnings.mp3", 
-        tags: ["upbeat", "fantasy", "grassy", "my favorites"] 
-    },
-    { 
         title: "Piano with Velocity", 
         file: "assets/songs/GrandPianoWithVelocity.mp3", 
         tags: ["epic"] 
@@ -110,16 +200,6 @@ const mp3Files = [
         tags: ["energetic"] 
     },
     { 
-        title: "Iceflow", 
-        file: "assets/songs/Iceflow.mp3", 
-        tags: ["chill", "icy"] 
-    },
-    { 
-        title: "Icy Winds", 
-        file: "assets/songs/Icy Winds.mp3", 
-        tags: ["icy"] 
-    },
-    { 
         title: "Irish 2", 
         file: "assets/songs/irish2.mp3", 
         tags: ["fantasy", "grassy"] 
@@ -130,34 +210,9 @@ const mp3Files = [
         tags: ["electronic", "chill"] 
     },
     { 
-        title: "Lost in Space", 
-        file: "assets/songs/Lost in Space.mp3", 
-        tags: ["electronic", "chill", "spacy"] 
-    },
-    { 
-        title: "Lotus", 
-        file: "assets/songs/Lotus.mp3", 
-        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
-    },
-    { 
-        title: "Mirage", 
-        file: "assets/songs/Mirage.mp3", 
-        tags: ["fantasy", "deserty", "my favorites"] 
-    },
-    { 
-        title: "Mirror Cemetery", 
-        file: "assets/songs/Mirror Cemetery.mp3", 
-        tags: ["electronic", "scary"] 
-    },
-    { 
         title: "Mood Reel Test 2", 
         file: "assets/songs/mood reel test 2.mp3", 
         tags: ["electronic", "chill", "ambient"] 
-    },
-    { 
-        title: "Mushroom Village", 
-        file: "assets/songs/Mushroom Village.mp3", 
-        tags: ["chill", "silly", "fantasy", "foresty", "my favorites"] 
     },
     { 
         title: "Old Synth", 
@@ -168,11 +223,6 @@ const mp3Files = [
         title: "One Dollar One Cent", 
         file: "assets/songs/One Dollar One Cent.mp3", 
         tags: ["electronic", "chill", "cavey"] 
-    },
-    { 
-        title: "Outerstellar", 
-        file: "assets/songs/Outerstellar.mp3", 
-        tags: ["chill", "epic", "spacey"] 
     },
     { 
         title: "Overdrive", 
@@ -235,29 +285,9 @@ const mp3Files = [
         tags: ["energetic", "epic", "fantasy", "bossfight"] 
     },
     { 
-        title: "Sad Story", 
-        file: "assets/songs/Sad Story.mp3", 
-        tags: ["chill", "sad", "icy", "spacey"] 
-    },
-    { 
         title: "HW Song 2", 
         file: "assets/songs/School HW Song 2.mp3", 
         tags: ["electronic", "energetic", "upbeat", "strange"] 
-    },
-    { 
-        title: "Scorched", 
-        file: "assets/songs/Scorched.mp3", 
-        tags: ["deserty", "bossfight", "my favorites"] 
-    },
-    { 
-        title: "Screamer", 
-        file: "assets/songs/screamer.mp3", 
-        tags: ["electronic", "scary"] 
-    },
-    { 
-        title: "Seaboss", 
-        file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
     },
     { 
         title: "Seashore", 
@@ -269,16 +299,11 @@ const mp3Files = [
         file: "assets/songs/sequencevocal.mp3", 
         tags: ["electronic", "chill", "strange", "foresty"] 
     },
-    { 
-        title: "Silly Cat Song", 
-        file: "assets/songs/silly cat song.mp3", 
-        tags: ["electronic", "retro", "upbeat", "silly", "grassy", "my favorites"] 
-    },
-    { 
-        title: "Simmer", 
-        file: "assets/songs/Simmer.mp3", 
-        tags: ["rock", "energetic"] 
-    },
+    // { 
+    //     title: "Simmer", 
+    //     file: "assets/songs/Simmer.mp3", 
+    //     tags: ["rock", "energetic"] 
+    // },
     { 
         title: "Slow Burn", 
         file: "assets/songs/SlowBurn.mp3", 
@@ -303,11 +328,6 @@ const mp3Files = [
         title: "Sparkle", 
         file: "assets/songs/Sparkle.mp3", 
         tags: ["electronic", "upbeat", "spacey"] 
-    },
-    { 
-        title: "Stalactite", 
-        file: "assets/songs/Stalactite.mp3", 
-        tags: ["chill", "upbeat", "cavey", "my favorites"] 
     },
     { 
         title: "Static Wave", 
@@ -345,24 +365,9 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat", "strange", "epic"] 
     },
     { 
-        title: "Thing 24", 
-        file: "assets/songs/thing24.mp3", 
-        tags: ["electronic", "energetic", "strange", "my favorites"] 
-    },
-    { 
-        title: "Upstairs", 
-        file: "assets/songs/Upstairs.mp3", 
-        tags: ["rock", "vocal", "silly", "my favorites"] 
-    },
-    { 
         title: "Vital Thing", 
         file: "assets/songs/vital_thing.mp3", 
         tags: ["electronic", "energetic", "upbeat"] 
-    },
-    { 
-        title: "Vocality", 
-        file: "assets/songs/vocality.mp3", 
-        tags: ["vocal", "epic", "fantasy", "foresty"] 
     },
     { 
         title: "Voyage", 
@@ -375,23 +380,18 @@ const mp3Files = [
         tags: ["energetic", "cavey"] 
     },
     { 
-        title: "Wavezone", 
-        file: "assets/songs/Wavezone.mp3", 
-        tags: ["electronic", "spacey", "icy", "my favorites"] 
-    },
-    { 
         title: "Winter Waltz", 
         file: "assets/songs/Winter Waltz.mp3", 
         tags: ["chill", "waltz", "icy"] 
     },
-    { 
-        title: "Worn Energy", 
-        file: "assets/songs/Worn Energy.mp3", 
-        tags: ["energetic"] 
-    },
+    // { 
+    //     title: "Worn Energy", 
+    //     file: "assets/songs/Worn Energy.mp3", 
+    //     tags: ["energetic"] 
+    // },
 ];
 
-let tags = ["rock", "electronic", "retro", "vocal", "energetic", "chill", "upbeat", "ambient", "waltz", 
+let tags = ["electronic", "rock", "retro", "vocal", "energetic", "chill", "upbeat", "ambient", "waltz", 
     "scary", "silly", "sad", "strange", "epic", "fantasy", "bossfight", 
     "grassy", "foresty", "icy", "cavey", "deserty", "spacey", "watery", 
     "my favorites"];
