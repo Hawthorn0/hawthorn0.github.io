@@ -50,9 +50,14 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
-        title: "Mirror Cemetery", 
-        file: "assets/songs/Mirror Cemetery.mp3", 
-        tags: ["electronic", "scary"] 
+        title: "String Warfare", 
+        file: "assets/songs/String Warfare.mp3", 
+        tags: ["energetic", "epic", "fantasy", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Electrostasis", 
+        file: "assets/songs/Electrostasis.mp3", 
+        tags: ["electronic", "energetic", "spacey"] 
     },
     { 
         title: "Scorched", 
@@ -68,6 +73,11 @@ const mp3Files = [
         title: "Outerstellar", 
         file: "assets/songs/Outerstellar.mp3", 
         tags: ["chill", "epic", "spacey", "my favorites"] 
+    },
+    { 
+        title: "Mirror Cemetery", 
+        file: "assets/songs/Mirror Cemetery.mp3", 
+        tags: ["electronic", "scary"] 
     },
     { 
         title: "Fire", 
