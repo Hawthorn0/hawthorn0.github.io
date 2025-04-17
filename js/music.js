@@ -85,6 +85,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat"] 
     },
     { 
+        title: "HW Song 2", 
+        file: "assets/songs/School HW Song 2.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "strange"] 
+    },
+    { 
         title: "Broken Road", 
         file: "assets/songs/Broken_Road.mp3", 
         tags: ["electronic", "vocal"] 
@@ -195,11 +200,6 @@ const mp3Files = [
         tags: ["epic"] 
     },
     { 
-        title: "Guitar Doodling 7", 
-        file: "assets/songs/Guitar Doodling 7.mp3", 
-        tags: ["rock", "energetic"] 
-    },
-    { 
         title: "Heaven Boss", 
         file: "assets/songs/Heaven Boss.mp3", 
         tags: ["energetic", "epic", "bossfight"] 
@@ -255,6 +255,11 @@ const mp3Files = [
         tags: ["electronic", "energetic"] 
     },
     { 
+        title: "Guitar Doodling 7", 
+        file: "assets/songs/Guitar Doodling 7.mp3", 
+        tags: ["rock", "energetic"] 
+    },
+    { 
         title: "Place Space", 
         file: "assets/songs/Place Space.mp3", 
         tags: ["electronic", "vocal"] 
@@ -293,11 +298,6 @@ const mp3Files = [
         title: "A Symbol of Flame", 
         file: "assets/songs/SAB-MOD A Symbol of Flame.mp3", 
         tags: ["energetic", "epic", "fantasy", "bossfight"] 
-    },
-    { 
-        title: "HW Song 2", 
-        file: "assets/songs/School HW Song 2.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "strange"] 
     },
     { 
         title: "Seashore", 
