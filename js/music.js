@@ -22,12 +22,12 @@ const mp3Files = [
     { 
         title: "Mirage", 
         file: "assets/songs/Mirage.mp3", 
-        tags: ["fantasy", "deserty", "my favorites"] 
+        tags: ["fantasy", "deserty"] 
     },
     { 
         title: "Fresh Beginnings", 
         file: "assets/songs/Fresh Beginnings.mp3", 
-        tags: ["upbeat", "fantasy", "grassy", "my favorites"] 
+        tags: ["upbeat", "fantasy", "grassy"] 
     },
     { 
         title: "Building Time", 
@@ -48,6 +48,11 @@ const mp3Files = [
         title: "Thing 24", 
         file: "assets/songs/thing24.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
+    },
+    { 
+        title: "Epitome of the Sky", 
+        file: "assets/songs/Epitome of the Sky.mp3", 
+        tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
     },
     { 
         title: "String Warfare", 
