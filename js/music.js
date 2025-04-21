@@ -1,8 +1,8 @@
 const mp3Files = [
     { 
-        title: "Lotus", 
-        file: "assets/songs/Lotus.mp3", 
-        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+        title: "Epitome of the Sky", 
+        file: "assets/songs/Epitome of the Sky.mp3", 
+        tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
     },
     { 
         title: "Seaboss", 
@@ -50,9 +50,9 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
-        title: "Epitome of the Sky", 
-        file: "assets/songs/Epitome of the Sky.mp3", 
-        tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
+        title: "Lotus", 
+        file: "assets/songs/Lotus.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
     },
     { 
         title: "String Warfare", 
