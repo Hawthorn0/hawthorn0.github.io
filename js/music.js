@@ -85,6 +85,11 @@ const mp3Files = [
         tags: ["electronic", "scary"] 
     },
     { 
+        title: "Clear Water Cave", 
+        file: "assets/songs/Clear Water Cave.mp3", 
+        tags: ["energetic", "epic", "bossfight", "cavey"] 
+    },
+    { 
         title: "Fire", 
         file: "assets/songs/fire.mp3", 
         tags: ["electronic", "energetic", "upbeat"] 
