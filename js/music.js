@@ -70,6 +70,11 @@ const mp3Files = [
         tags: ["deserty", "bossfight", "my favorites"] 
     },
     { 
+        title: "Si-Fi FPS Loading Music", 
+        file: "assets/songs/SiFi Fps Loading.mp3", 
+        tags: ["electronic", "chill", "ambient", "epic", "spacey"] 
+    },
+    { 
         title: "Autumn Waltz", 
         file: "assets/songs/Autumn Waltz.mp3", 
         tags: ["upbeat", "waltz", "my favorites"] 
