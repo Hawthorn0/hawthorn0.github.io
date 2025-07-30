@@ -44,15 +44,15 @@ function generateFooter() {
         location.href = "https://www.youtube.com/channel/UC0kbKFTcjRdmQpHfL6n8FRQ";
     };
 
-    const buttonLinkedIn = document.createElement("button");
-    buttonLinkedIn.textContent = "LinkedIn";
-    buttonLinkedIn.onclick = function() {
-        location.href = "https://www.linkedin.com/in/hawthorn-wood-652393347/";
-    };
+    // const buttonLinkedIn = document.createElement("button");
+    // buttonLinkedIn.textContent = "LinkedIn";
+    // buttonLinkedIn.onclick = function() {
+    //     location.href = "https://www.linkedin.com/in/hawthorn-wood-652393347/";
+    // };
 
     container.appendChild(buttonSpotify);
     container.appendChild(buttonYoutube);
-    container.appendChild(buttonLinkedIn);
+    // container.appendChild(buttonLinkedIn);
 }
 
 window.addEventListener("load", function () {

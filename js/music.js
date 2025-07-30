@@ -369,16 +369,16 @@ const mp3Files = [
         file: "assets/songs/thing5.mp3", 
         tags: ["electronic", "energetic"] 
     },
-    { 
-        title: "Thing 11", 
-        file: "assets/songs/thing11.mp3", 
-        tags: ["electronic", "energetic", "deserty"] 
-    },
-    { 
-        title: "Thing 17", 
-        file: "assets/songs/thing17.mp3", 
-        tags: ["energetic"] 
-    },
+    // { 
+    //     title: "Thing 11", 
+    //     file: "assets/songs/thing11.mp3", 
+    //     tags: ["electronic", "energetic", "deserty"] 
+    // },
+    // { 
+    //     title: "Thing 17", 
+    //     file: "assets/songs/thing17.mp3", 
+    //     tags: ["energetic"] 
+    // },
     { 
         title: "Thing 20", 
         file: "assets/songs/thing20.mp3", 
