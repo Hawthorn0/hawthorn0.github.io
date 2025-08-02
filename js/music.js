@@ -50,6 +50,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "Free Orchestra Test", 
+        file: "assets/songs/free orchestra test.mp3", 
+        tags: ["energetic", "scary", "epic", "fantasy"] 
+    },
+    { 
         title: "Lotus", 
         file: "assets/songs/Lotus.mp3", 
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
@@ -363,6 +368,11 @@ const mp3Files = [
         title: "Static Wave", 
         file: "assets/songs/Static Wave.mp3", 
         tags: ["electronic", "energetic", "upbeat"] 
+    },
+    { 
+        title: "The Serenity", 
+        file: "assets/songs/The Serenity.mp3", 
+        tags: ["energetic", "chill", "scary", "sad", "icy"] 
     },
     { 
         title: "Thing 5", 
