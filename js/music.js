@@ -50,6 +50,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "War Forward", 
+        file: "assets/songs/War Forward.mp3", 
+        tags: ["energetic", "epic", "fantasy", "my favorites"] 
+    },
+    { 
         title: "Free Orchestra Test", 
         file: "assets/songs/free orchestra test.mp3", 
         tags: ["energetic", "scary", "epic", "fantasy"] 
