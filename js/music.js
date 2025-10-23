@@ -5,11 +5,6 @@ const mp3Files = [
         tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
     },
     { 
-        title: "Seaboss", 
-        file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
-    },
-    { 
         title: "Wavezone", 
         file: "assets/songs/Wavezone.mp3", 
         tags: ["electronic", "spacey", "icy", "my favorites"] 
@@ -43,6 +38,11 @@ const mp3Files = [
         title: "Icy Winds", 
         file: "assets/songs/Icy Winds.mp3", 
         tags: ["icy"] 
+    },
+        { 
+        title: "Seaboss", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
     },
     { 
         title: "Thing 24", 
@@ -495,14 +495,9 @@ function filterMP3Files() {
     let filteredFiles;
 
     if (isExclusive) {
-        filteredFiles = mp3Files.filter(mp3 =>
-            selectedTags.every(tag => mp3.tags.includes(tag)) &&
-            mp3.tags.length === selectedTags.length
-        );
+        filteredFiles = mp3Files.filter(mp3 => selectedTags.every(tag => mp3.tags.includes(tag)));
     } else {
-        filteredFiles = mp3Files.filter(mp3 =>
-            selectedTags.some(tag => mp3.tags.includes(tag))
-        );
+        filteredFiles = mp3Files.filter(mp3 => selectedTags.some(tag => mp3.tags.includes(tag)));
     }
 
     displayMP3Files(filteredFiles);
