@@ -7,7 +7,7 @@ const mp3Files = [
     { 
         title: "Wavezone", 
         file: "assets/songs/Wavezone.mp3", 
-        tags: ["electronic", "spacey", "icy", "my favorites"] 
+        tags: ["electronic", "spacey", "my favorites"] 
     },
     { 
         title: "Stalactite", 
@@ -15,6 +15,21 @@ const mp3Files = [
         tags: ["chill", "upbeat", "cavey", "my favorites"] 
     },
     { 
+        title: "Genbu", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
+    },
+    { 
+        title: "Seaboss", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "epic", "bossfight", "watery", "my favorites"] 
+    },
+    { 
+        title: "Thing 24", 
+        file: "assets/songs/thing24.mp3", 
+        tags: ["electronic", "energetic", "strange", "my favorites"] 
+    },
+        { 
         title: "Mirage", 
         file: "assets/songs/Mirage.mp3", 
         tags: ["fantasy", "deserty"] 
@@ -39,20 +54,25 @@ const mp3Files = [
         file: "assets/songs/Icy Winds.mp3", 
         tags: ["icy"] 
     },
-        { 
-        title: "Seaboss", 
-        file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "fantasy", "bossfight", "watery", "my favorites"] 
+    { 
+        title: "MPE Power", 
+        file: "assets/songs/MPE POWER.mp3", 
+        tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
-        title: "Thing 24", 
-        file: "assets/songs/thing24.mp3", 
+        title: "Variable Motion", 
+        file: "assets/songs/Variable Motion.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
         title: "Underwater Explorer", 
         file: "assets/songs/Underwater Explorer.mp3", 
         tags: ["electronic", "chill", "ambient", "watery", "my favorites"] 
+    },
+    { 
+        title: "Sudden Orchestra", 
+        file: "assets/songs/Sudden Orchestra.mp3", 
+        tags: ["energetic", "epic", "my favorites"] 
     },
     { 
         title: "War Forward", 
@@ -75,6 +95,11 @@ const mp3Files = [
         tags: ["energetic", "epic", "fantasy", "bossfight", "my favorites"] 
     },
     { 
+        title: "Timewinder", 
+        file: "assets/songs/Timewinder.mp3", 
+        tags: ["energetic", "epic", "bossfight"] 
+    },
+    { 
         title: "Electrostasis", 
         file: "assets/songs/Electrostasis.mp3", 
         tags: ["electronic", "energetic", "spacey"] 
@@ -83,6 +108,11 @@ const mp3Files = [
         title: "Scorched", 
         file: "assets/songs/Scorched.mp3", 
         tags: ["deserty", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Winter Lodge", 
+        file: "assets/songs/Winter Lodge.mp3", 
+        tags: ["chill", "ambient", "icy", "my favorites"] 
     },
     { 
         title: "Si-Fi FPS Loading Music", 
@@ -100,6 +130,11 @@ const mp3Files = [
         tags: ["chill", "epic", "spacey", "my favorites"] 
     },
     { 
+        title: "Faster Piano", 
+        file: "assets/songs/Faster Piano.mp3", 
+        tags: ["energetic", "bossfight"] 
+    },
+    { 
         title: "Mirror Cemetery", 
         file: "assets/songs/Mirror Cemetery.mp3", 
         tags: ["electronic", "scary"] 
@@ -113,6 +148,11 @@ const mp3Files = [
         title: "Fire", 
         file: "assets/songs/fire.mp3", 
         tags: ["electronic", "energetic", "upbeat"] 
+    },
+    { 
+        title: "Chriscore", 
+        file: "assets/songs/Chriscore.mp3", 
+        tags: ["energetic", "upbeat", "icy", "my favorites"] 
     },
     { 
         title: "HW Song 2", 
@@ -158,6 +198,11 @@ const mp3Files = [
         title: "Vocality", 
         file: "assets/songs/vocality.mp3", 
         tags: ["vocal", "epic", "fantasy", "foresty"] 
+    },
+    { 
+        title: "Oblivion-esque", 
+        file: "assets/songs/Oblivion esque.mp3", 
+        tags: ["chill", "ambient", "fantasy", "foresty"] 
     },
     { 
         title: "Lost in Space", 
