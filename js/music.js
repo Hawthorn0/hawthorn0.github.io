@@ -16,7 +16,7 @@ const mp3Files = [
     },
     { 
         title: "Genbu", 
-        file: "assets/songs/seaboss.mp3", 
+        file: "assets/songs/Genbu.mp3", 
         tags: ["electronic", "energetic", "upbeat", "my favorites"] 
     },
     { 
