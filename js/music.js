@@ -60,6 +60,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "Temporal End", 
+        file: "assets/songs/Temporal End.mp3", 
+        tags: ["energetic", "epic", "bossfight", "my favorites"] 
+    },
+    { 
         title: "Variable Motion", 
         file: "assets/songs/Variable Motion.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
@@ -108,6 +113,11 @@ const mp3Files = [
         title: "Scorched", 
         file: "assets/songs/Scorched.mp3", 
         tags: ["deserty", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Snowed Out", 
+        file: "assets/songs/Snowed Out.mp3", 
+        tags: ["icy"] 
     },
     { 
         title: "Winter Lodge", 
