@@ -210,6 +210,11 @@ const mp3Files = [
         tags: ["vocal", "epic", "fantasy", "foresty"] 
     },
     { 
+        title: "Blue City", 
+        file: "assets/songs/Blue City.mp3", 
+        tags: ["chill", "ambient"] 
+    },
+    { 
         title: "Oblivion-esque", 
         file: "assets/songs/Oblivion esque.mp3", 
         tags: ["chill", "ambient", "fantasy", "foresty"] 
