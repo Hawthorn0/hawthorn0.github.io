@@ -202,17 +202,22 @@ const mp3Files = [
     { 
         title: "Silly Cat Song", 
         file: "assets/songs/silly cat song.mp3", 
-        tags: ["electronic", "retro", "upbeat", "silly", "grassy", "my favorites"] 
+        tags: ["electronic", "retro", "upbeat", "silly", "my favorites"] 
     },
     { 
         title: "Vocality", 
         file: "assets/songs/vocality.mp3", 
-        tags: ["vocal", "epic", "fantasy", "foresty"] 
+        tags: ["vocal", "epic", "fantasy"] 
     },
     { 
         title: "Blue City", 
         file: "assets/songs/Blue City.mp3", 
         tags: ["chill", "ambient"] 
+    },
+    { 
+        title: "Greener Path", 
+        file: "assets/songs/Greener Path.mp3", 
+        tags: ["chill", "ambient", "grassy", "foresty"] 
     },
     { 
         title: "Oblivion-esque", 
@@ -473,6 +478,11 @@ const mp3Files = [
         title: "Thing 22", 
         file: "assets/songs/thing22.mp3", 
         tags: ["electronic", "energetic", "upbeat", "strange", "epic"] 
+    },
+    { 
+        title: "Thing 33", 
+        file: "assets/songs/thing33.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "silly", "strange"] 
     },
     { 
         title: "Vital Thing", 
