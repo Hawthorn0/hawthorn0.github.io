@@ -70,6 +70,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "Way Back!", 
+        file: "assets/songs/Way Back!.mp3", 
+        tags: ["energetic", "upbeat"] 
+    },
+    { 
         title: "Underwater Explorer", 
         file: "assets/songs/Underwater Explorer.mp3", 
         tags: ["electronic", "chill", "ambient", "watery", "my favorites"] 
