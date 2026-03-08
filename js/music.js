@@ -10,6 +10,11 @@ const mp3Files = [
         tags: ["electronic", "spacey", "my favorites"] 
     },
     { 
+        title: "Mercenary", 
+        file: "assets/songs/mercenary.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+    },
+    { 
         title: "Stalactite", 
         file: "assets/songs/Stalactite.mp3", 
         tags: ["chill", "upbeat", "cavey", "my favorites"] 
