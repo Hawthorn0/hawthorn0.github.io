@@ -582,7 +582,7 @@ function filterMP3Files() {
     if (isExclusive) {
         filteredFiles = mp3Files.filter(mp3 => selectedTags.every(tag => mp3.tags.includes(tag)));
     } else {
-        filteredFiles = mp3Files.filter(mp3 => selectedTags.some(tag => mp3.tags.includes(tag)));
+        filteredFiles = mp3Files.filter(mp3 => selectedTags.some(tag => mp3.tags.includes(tag)));filterMP3Files
     }
 
     displayMP3Files(filteredFiles);
