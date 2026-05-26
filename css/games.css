@@ -33,3 +33,9 @@
 .game-item h2, .game-item p {
     margin-left: 10px;
 }
+
+
+.game-item img {
+    max-width: 80%;
+    max-height: 100%;
+}
