@@ -25,11 +25,6 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat", "my favorites"] 
     },
     { 
-        title: "Seaboss", 
-        file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "bossfight", "watery", "my favorites"] 
-    },
-    { 
         title: "Thing 24", 
         file: "assets/songs/thing24.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
@@ -43,6 +38,11 @@ const mp3Files = [
         title: "Fresh Beginnings", 
         file: "assets/songs/Fresh Beginnings.mp3", 
         tags: ["upbeat", "fantasy", "grassy"] 
+    },
+    { 
+        title: "Seaboss", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "epic", "bossfight", "watery", "my favorites"] 
     },
     { 
         title: "Building Time", 
@@ -60,6 +60,11 @@ const mp3Files = [
         tags: ["icy"] 
     },
     { 
+        title: "Open Flame Roaring Fire", 
+        file: "assets/songs/Open Flame Roaring Fire.mp3", 
+        tags: ["rock", "energetic", "bossfight"] 
+    },
+    { 
         title: "MPE Power", 
         file: "assets/songs/MPE POWER.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
@@ -73,6 +78,11 @@ const mp3Files = [
         title: "Variable Motion", 
         file: "assets/songs/Variable Motion.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
+    },
+    { 
+        title: "Retrial", 
+        file: "assets/songs/Retrial.mp3", 
+        tags: ["electronic", "energetic", "spacey"] 
     },
     { 
         title: "Way Back!", 
@@ -170,9 +180,19 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat"] 
     },
     { 
+        title: "Hotter Day", 
+        file: "assets/songs/hotter day.mp3", 
+        tags: ["energetic", "deserty", "my favorites"] 
+    },
+    { 
         title: "Chriscore", 
         file: "assets/songs/Chriscore.mp3", 
-        tags: ["energetic", "upbeat", "icy", "my favorites"] 
+        tags: ["energetic", "upbeat", "icy"] 
+    },
+    { 
+        title: "SSO test", 
+        file: "assets/songs/SSO test.mp3", 
+        tags: ["epic", "fantasy", "foresty"] 
     },
     { 
         title: "HW Song 2", 
@@ -308,6 +328,11 @@ const mp3Files = [
         title: "Heaven Boss", 
         file: "assets/songs/Heaven Boss.mp3", 
         tags: ["energetic", "epic", "bossfight"] 
+    },
+    { 
+        title: "Artcore test", 
+        file: "assets/songs/artcore test 3am.mp3", 
+        tags: ["energetic", "upbeat"] 
     },
     { 
         title: "Heavenly Randomness", 
