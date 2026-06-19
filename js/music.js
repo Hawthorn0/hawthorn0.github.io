@@ -25,19 +25,14 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat", "my favorites"] 
     },
     { 
+        title: "Open Flame Roaring Fire", 
+        file: "assets/songs/Open Flame Roaring Fire.mp3", 
+        tags: ["rock", "energetic", "bossfight"] 
+    },
+    { 
         title: "Thing 24", 
         file: "assets/songs/thing24.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
-    },
-        { 
-        title: "Mirage", 
-        file: "assets/songs/Mirage.mp3", 
-        tags: ["fantasy", "deserty"] 
-    },
-    { 
-        title: "Fresh Beginnings", 
-        file: "assets/songs/Fresh Beginnings.mp3", 
-        tags: ["upbeat", "fantasy", "grassy"] 
     },
     { 
         title: "Seaboss", 
@@ -45,24 +40,14 @@ const mp3Files = [
         tags: ["electronic", "energetic", "epic", "bossfight", "watery", "my favorites"] 
     },
     { 
-        title: "Building Time", 
-        file: "assets/songs/Building Time.mp3", 
-        tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
+        title: "Mirage", 
+        file: "assets/songs/Mirage.mp3", 
+        tags: ["fantasy", "deserty"] 
     },
     { 
-        title: "Iceflow", 
-        file: "assets/songs/Iceflow.mp3", 
-        tags: ["chill", "icy"] 
-    },
-    { 
-        title: "Icy Winds", 
-        file: "assets/songs/Icy Winds.mp3", 
-        tags: ["icy"] 
-    },
-    { 
-        title: "Open Flame Roaring Fire", 
-        file: "assets/songs/Open Flame Roaring Fire.mp3", 
-        tags: ["rock", "energetic", "bossfight"] 
+        title: "Grasslander", 
+        file: "assets/songs/SG Grass Theme Old.mp3", 
+        tags: ["fantasy", "grassy"] 
     },
     { 
         title: "MPE Power", 
@@ -85,9 +70,24 @@ const mp3Files = [
         tags: ["electronic", "energetic", "spacey"] 
     },
     { 
+        title: "String Warfare", 
+        file: "assets/songs/String Warfare.mp3", 
+        tags: ["energetic", "epic", "fantasy", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Faster Piano", 
+        file: "assets/songs/Faster Piano.mp3", 
+        tags: ["energetic", "bossfight"] 
+    },
+    { 
         title: "Way Back!", 
         file: "assets/songs/Way Back!.mp3", 
         tags: ["energetic", "upbeat"] 
+    },
+    { 
+        title: "Fresh Beginnings", 
+        file: "assets/songs/Fresh Beginnings.mp3", 
+        tags: ["upbeat", "fantasy", "grassy"] 
     },
     { 
         title: "Underwater Explorer", 
@@ -105,6 +105,11 @@ const mp3Files = [
         tags: ["energetic", "epic", "fantasy", "my favorites"] 
     },
     { 
+        title: "Building Time", 
+        file: "assets/songs/Building Time.mp3", 
+        tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
+    },
+    { 
         title: "Free Orchestra Test", 
         file: "assets/songs/free orchestra test.mp3", 
         tags: ["energetic", "scary", "epic", "fantasy"] 
@@ -115,14 +120,19 @@ const mp3Files = [
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
     },
     { 
-        title: "String Warfare", 
-        file: "assets/songs/String Warfare.mp3", 
-        tags: ["energetic", "epic", "fantasy", "bossfight", "my favorites"] 
-    },
-    { 
         title: "Timewinder", 
         file: "assets/songs/Timewinder.mp3", 
         tags: ["energetic", "epic", "bossfight"] 
+    },
+    { 
+        title: "Fire", 
+        file: "assets/songs/fire.mp3", 
+        tags: ["electronic", "energetic", "upbeat"] 
+    },
+    { 
+        title: "Hotter Day", 
+        file: "assets/songs/hotter day.mp3", 
+        tags: ["energetic", "deserty", "my favorites"] 
     },
     { 
         title: "Electrostasis", 
@@ -130,9 +140,29 @@ const mp3Files = [
         tags: ["electronic", "energetic", "spacey"] 
     },
     { 
+        title: "Iceflow", 
+        file: "assets/songs/Iceflow.mp3", 
+        tags: ["chill", "icy"] 
+    },
+    { 
+        title: "Icy Winds", 
+        file: "assets/songs/Icy Winds.mp3", 
+        tags: ["icy"] 
+    },
+    { 
         title: "Scorched", 
         file: "assets/songs/Scorched.mp3", 
         tags: ["deserty", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Fever Dream", 
+        file: "assets/songs/fever dream.mp3", 
+        tags: ["chill", "strange"] 
+    },
+    { 
+        title: "Mushroom Village", 
+        file: "assets/songs/Mushroom Village.mp3", 
+        tags: ["chill", "silly", "fantasy", "foresty", "my favorites"] 
     },
     { 
         title: "Snowed Out", 
@@ -160,11 +190,6 @@ const mp3Files = [
         tags: ["chill", "epic", "spacey", "my favorites"] 
     },
     { 
-        title: "Faster Piano", 
-        file: "assets/songs/Faster Piano.mp3", 
-        tags: ["energetic", "bossfight"] 
-    },
-    { 
         title: "Mirror Cemetery", 
         file: "assets/songs/Mirror Cemetery.mp3", 
         tags: ["electronic", "scary"] 
@@ -173,16 +198,6 @@ const mp3Files = [
         title: "Clear Water Cave", 
         file: "assets/songs/Clear Water Cave.mp3", 
         tags: ["energetic", "epic", "bossfight", "cavey"] 
-    },
-    { 
-        title: "Fire", 
-        file: "assets/songs/fire.mp3", 
-        tags: ["electronic", "energetic", "upbeat"] 
-    },
-    { 
-        title: "Hotter Day", 
-        file: "assets/songs/hotter day.mp3", 
-        tags: ["energetic", "deserty", "my favorites"] 
     },
     { 
         title: "Chriscore", 
@@ -213,16 +228,6 @@ const mp3Files = [
         title: "Screamer", 
         file: "assets/songs/screamer.mp3", 
         tags: ["electronic", "scary"] 
-    },
-    { 
-        title: "Fever Dream", 
-        file: "assets/songs/fever dream.mp3", 
-        tags: ["chill", "strange"] 
-    },
-    { 
-        title: "Mushroom Village", 
-        file: "assets/songs/Mushroom Village.mp3", 
-        tags: ["chill", "silly", "fantasy", "foresty", "my favorites"] 
     },
     { 
         title: "Upstairs", 
