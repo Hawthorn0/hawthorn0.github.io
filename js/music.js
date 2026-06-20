@@ -25,11 +25,6 @@ const mp3Files = [
         tags: ["electronic", "energetic", "upbeat", "my favorites"] 
     },
     { 
-        title: "Open Flame Roaring Fire", 
-        file: "assets/songs/Open Flame Roaring Fire.mp3", 
-        tags: ["rock", "energetic", "bossfight"] 
-    },
-    { 
         title: "Thing 24", 
         file: "assets/songs/thing24.mp3", 
         tags: ["electronic", "energetic", "strange", "my favorites"] 
@@ -48,6 +43,11 @@ const mp3Files = [
         title: "Grasslander", 
         file: "assets/songs/SG Grass Theme Old.mp3", 
         tags: ["fantasy", "grassy"] 
+    },
+    { 
+        title: "Open Flame Roaring Fire", 
+        file: "assets/songs/Open Flame Roaring Fire.mp3", 
+        tags: ["rock", "energetic", "bossfight"] 
     },
     { 
         title: "MPE Power", 
@@ -83,6 +83,11 @@ const mp3Files = [
         title: "Way Back!", 
         file: "assets/songs/Way Back!.mp3", 
         tags: ["energetic", "upbeat"] 
+    },
+    { 
+        title: "Torrential Hazard", 
+        file: "assets/songs/Torrential Hazard.mp3", 
+        tags: ["electronic", "energetic", "epic", "spacey"] 
     },
     { 
         title: "Fresh Beginnings", 
