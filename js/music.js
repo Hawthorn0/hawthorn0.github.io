@@ -95,11 +95,6 @@ const mp3Files = [
         tags: ["electronic", "energetic", "epic", "spacey"] 
     },
     { 
-        title: "Fresh Beginnings", 
-        file: "assets/songs/Fresh Beginnings.mp3", 
-        tags: ["upbeat", "fantasy", "grassy"] 
-    },
-    { 
         title: "Underwater Explorer", 
         file: "assets/songs/Underwater Explorer.mp3", 
         tags: ["electronic", "chill", "ambient", "watery", "my favorites"] 
@@ -130,6 +125,11 @@ const mp3Files = [
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
     },
     { 
+        title: "SSO test", 
+        file: "assets/songs/SSO test.mp3", 
+        tags: ["epic", "fantasy", "foresty"] 
+    },
+    { 
         title: "Timewinder", 
         file: "assets/songs/Timewinder.mp3", 
         tags: ["energetic", "epic", "bossfight"] 
@@ -158,6 +158,11 @@ const mp3Files = [
         title: "Icy Winds", 
         file: "assets/songs/Icy Winds.mp3", 
         tags: ["icy"] 
+    },
+    { 
+        title: "Fresh Beginnings", 
+        file: "assets/songs/Fresh Beginnings.mp3", 
+        tags: ["upbeat", "fantasy", "grassy"] 
     },
     { 
         title: "Scorched", 
@@ -213,11 +218,6 @@ const mp3Files = [
         title: "Chriscore", 
         file: "assets/songs/Chriscore.mp3", 
         tags: ["energetic", "upbeat", "icy"] 
-    },
-    { 
-        title: "SSO test", 
-        file: "assets/songs/SSO test.mp3", 
-        tags: ["epic", "fantasy", "foresty"] 
     },
     { 
         title: "HW Song 2", 
