@@ -10,6 +10,11 @@ const mp3Files = [
         tags: ["electronic", "spacey", "my favorites"] 
     },
     { 
+        title: "Green Grass Blue Sky", 
+        file: "assets/songs/SG Grass Theme.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "epic", "fantasy", "grassy", "my favorites"] 
+    },
+    { 
         title: "Mercenary", 
         file: "assets/songs/mercenary.mp3", 
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
