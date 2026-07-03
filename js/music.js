@@ -35,13 +35,18 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
-        title: "Seaboss", 
-        file: "assets/songs/seaboss.mp3", 
-        tags: ["electronic", "energetic", "epic", "bossfight", "watery", "my favorites"] 
+        title: "Greatworm", 
+        file: "assets/songs/SG Worm Boss.mp3", 
+        tags: ["energetic", "epic", "fantasy", "bossfight", "deserty", "my favorites"] 
     },
     { 
-        title: "Mirage", 
-        file: "assets/songs/Mirage.mp3", 
+        title: "Seaboss", 
+        file: "assets/songs/seaboss.mp3", 
+        tags: ["electronic", "energetic", "epic", "bossfight", "watery"] 
+    },
+    { 
+        title: "Dusty Desert", 
+        file: "assets/songs/SG Desert Theme.mp3", 
         tags: ["fantasy", "deserty"] 
     },
     { 
@@ -53,6 +58,11 @@ const mp3Files = [
         title: "Open Flame Roaring Fire", 
         file: "assets/songs/Open Flame Roaring Fire.mp3", 
         tags: ["rock", "energetic", "bossfight"] 
+    },
+    { 
+        title: "Mirage", 
+        file: "assets/songs/Mirage.mp3", 
+        tags: ["fantasy", "deserty"] 
     },
     { 
         title: "MPE Power", 
