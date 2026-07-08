@@ -38,11 +38,11 @@ function generateFooter() {
         location.href = "https://open.spotify.com/artist/6APZX6QDxzhzeEs4Ln8Ook";
     };
 
-    const buttonYoutube = document.createElement("button");
-    buttonYoutube.textContent = "Youtube";
-    buttonYoutube.onclick = function() {
-        location.href = "https://www.youtube.com/channel/UC0kbKFTcjRdmQpHfL6n8FRQ";
-    };
+    // const buttonYoutube = document.createElement("button");
+    // buttonYoutube.textContent = "Youtube";
+    // buttonYoutube.onclick = function() {
+    //     location.href = "https://www.youtube.com/channel/UC0kbKFTcjRdmQpHfL6n8FRQ";
+    // };
 
     // const buttonLinkedIn = document.createElement("button");
     // buttonLinkedIn.textContent = "LinkedIn";
