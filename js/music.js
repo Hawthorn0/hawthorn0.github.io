@@ -36,7 +36,7 @@ const mp3Files = [
     },
     { 
         title: "Greatworm", 
-        file: "assets/songs/SG Worm Boss.mp3", 
+        file: "assets/songs/SG Worm Boss noloop.mp3", 
         tags: ["energetic", "epic", "fantasy", "bossfight", "deserty", "my favorites"] 
     },
     { 
