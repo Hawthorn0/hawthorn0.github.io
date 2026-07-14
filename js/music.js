@@ -1,8 +1,8 @@
 const mp3Files = [
     { 
-        title: "Epitome of the Sky", 
-        file: "assets/songs/Epitome of the Sky.mp3", 
-        tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
+        title: "Green Grass Blue Sky", 
+        file: "assets/songs/SG Grass Theme.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "epic", "fantasy", "grassy", "my favorites"] 
     },
     { 
         title: "Wavezone", 
@@ -10,9 +10,9 @@ const mp3Files = [
         tags: ["electronic", "spacey", "my favorites"] 
     },
     { 
-        title: "Green Grass Blue Sky", 
-        file: "assets/songs/SG Grass Theme.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "epic", "fantasy", "grassy", "my favorites"] 
+        title: "Epitome of the Sky", 
+        file: "assets/songs/Epitome of the Sky.mp3", 
+        tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
     },
     { 
         title: "Mercenary", 
