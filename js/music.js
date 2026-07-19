@@ -60,6 +60,11 @@ const mp3Files = [
         tags: ["rock", "energetic", "bossfight"] 
     },
     { 
+        title: "Technomage", 
+        file: "assets/songs/DAD Technomage.mp3", 
+        tags: ["electronic", "energetic", "bossfight"] 
+    },
+    { 
         title: "Mirage", 
         file: "assets/songs/Mirage.mp3", 
         tags: ["fantasy", "deserty"] 
