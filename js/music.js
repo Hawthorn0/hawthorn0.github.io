@@ -15,19 +15,14 @@ const mp3Files = [
         tags: ["energetic", "upbeat", "epic", "fantasy", "my favorites"] 
     },
     { 
-        title: "Mercenary", 
-        file: "assets/songs/mercenary.mp3", 
-        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
-    },
-    { 
         title: "Stalactite", 
         file: "assets/songs/Stalactite.mp3", 
         tags: ["chill", "upbeat", "cavey", "my favorites"] 
     },
     { 
-        title: "Genbu", 
-        file: "assets/songs/Genbu.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
+        title: "Mercenary", 
+        file: "assets/songs/mercenary.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
     },
     { 
         title: "Thing 24", 
@@ -38,6 +33,11 @@ const mp3Files = [
         title: "Greatworm", 
         file: "assets/songs/SG Worm Boss noloop.mp3", 
         tags: ["energetic", "epic", "fantasy", "bossfight", "deserty", "my favorites"] 
+    },
+    { 
+        title: "Laelyn Battle", 
+        file: "assets/songs/PN Laelyn Battle.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
     },
     { 
         title: "Seaboss", 
@@ -58,6 +58,11 @@ const mp3Files = [
         title: "Open Flame Roaring Fire", 
         file: "assets/songs/Open Flame Roaring Fire.mp3", 
         tags: ["rock", "energetic", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Genbu", 
+        file: "assets/songs/Genbu.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
     },
     { 
         title: "Technomage", 
@@ -85,6 +90,11 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "Penrose Battle", 
+        file: "assets/songs/PN Penrose Battle.mp3", 
+        tags: ["chill", "bossfight", "my favorites"] 
+    },
+    { 
         title: "Retrial", 
         file: "assets/songs/Retrial.mp3", 
         tags: ["electronic", "energetic", "spacey"] 
@@ -108,6 +118,16 @@ const mp3Files = [
         title: "Torrential Hazard", 
         file: "assets/songs/Torrential Hazard.mp3", 
         tags: ["electronic", "energetic", "epic", "spacey"] 
+    },
+    { 
+        title: "Penrose Main", 
+        file: "assets/songs/PN Penrose Battle.mp3", 
+        tags: ["chill", "waltz", "ambient"] 
+    },
+    { 
+        title: "Laelyn Main", 
+        file: "assets/songs/PN Laelyn Main.mp3", 
+        tags: ["chill", "ambient"] 
     },
     { 
         title: "Underwater Explorer", 
