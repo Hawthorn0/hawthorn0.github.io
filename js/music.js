@@ -57,7 +57,7 @@ const mp3Files = [
     { 
         title: "Open Flame Roaring Fire", 
         file: "assets/songs/Open Flame Roaring Fire.mp3", 
-        tags: ["rock", "energetic", "bossfight"] 
+        tags: ["rock", "energetic", "bossfight", "my favorites"] 
     },
     { 
         title: "Technomage", 
