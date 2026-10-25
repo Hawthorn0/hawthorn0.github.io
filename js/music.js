@@ -2,7 +2,7 @@ const mp3Files = [
     { 
         title: "Green Grass Blue Sky", 
         file: "assets/songs/SG Grass Theme.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "epic", "fantasy", "grassy", "my favorites"] 
+        tags: ["energetic", "upbeat", "epic", "fantasy", "grassy", "my favorites"] 
     },
     { 
         title: "Wavezone", 
@@ -35,9 +35,24 @@ const mp3Files = [
         tags: ["energetic", "epic", "fantasy", "bossfight", "deserty", "my favorites"] 
     },
     { 
-        title: "Laelyn Battle", 
-        file: "assets/songs/PN Laelyn Battle.mp3", 
-        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+        title: "Open Flame Roaring Fire", 
+        file: "assets/songs/Open Flame Roaring Fire.mp3", 
+        tags: ["rock", "energetic", "bossfight", "my favorites"] 
+    },
+    { 
+        title: "Genbu", 
+        file: "assets/songs/Genbu.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
+    },
+    { 
+        title: "Steady Hand", 
+        file: "assets/songs/Steady hand.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "spacey"] 
+    },
+    { 
+        title: "Technomage", 
+        file: "assets/songs/DAD Technomage.mp3", 
+        tags: ["electronic", "energetic", "retro", "bossfight"] 
     },
     { 
         title: "Seaboss", 
@@ -55,29 +70,19 @@ const mp3Files = [
         tags: ["fantasy", "grassy"] 
     },
     { 
-        title: "Open Flame Roaring Fire", 
-        file: "assets/songs/Open Flame Roaring Fire.mp3", 
-        tags: ["rock", "energetic", "bossfight", "my favorites"] 
-    },
-    { 
-        title: "Genbu", 
-        file: "assets/songs/Genbu.mp3", 
-        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
-    },
-    { 
-        title: "Technomage", 
-        file: "assets/songs/DAD Technomage.mp3", 
-        tags: ["electronic", "energetic", "bossfight"] 
-    },
-    { 
         title: "Mirage", 
         file: "assets/songs/Mirage.mp3", 
         tags: ["fantasy", "deserty"] 
     },
     { 
+        title: "Laelyn Battle", 
+        file: "assets/songs/PN Laelyn Battle.mp3", 
+        tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
+    },
+    { 
         title: "MPE Power", 
         file: "assets/songs/MPE POWER.mp3", 
-        tags: ["electronic", "energetic", "strange", "my favorites"] 
+        tags: ["electronic", "energetic", "strange", "retro", "my favorites"] 
     },
     { 
         title: "Temporal End", 
