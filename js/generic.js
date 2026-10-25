@@ -51,7 +51,7 @@ function generateFooter() {
     // };
 
     container.appendChild(buttonSpotify);
-    container.appendChild(buttonYoutube);
+    //container.appendChild(buttonYoutube);
     // container.appendChild(buttonLinkedIn);
 }
 
