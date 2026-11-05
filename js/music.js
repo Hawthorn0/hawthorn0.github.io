@@ -30,6 +30,16 @@ const mp3Files = [
         tags: ["electronic", "energetic", "strange", "my favorites"] 
     },
     { 
+        title: "Factor In", 
+        file: "assets/songs/MW Factor In.mp3", 
+        tags: ["electronic", "energetic", "my favorites"] 
+    },
+    { 
+        title: "First Flight", 
+        file: "assets/songs/MW First Flight.mp3", 
+        tags: ["electronic", "energetic", "upbeat", "my favorites"] 
+    },
+    { 
         title: "Greatworm", 
         file: "assets/songs/SG Worm Boss noloop.mp3", 
         tags: ["energetic", "epic", "fantasy", "bossfight", "deserty", "my favorites"] 
@@ -73,6 +83,11 @@ const mp3Files = [
         title: "Mirage", 
         file: "assets/songs/Mirage.mp3", 
         tags: ["fantasy", "deserty"] 
+    },
+    { 
+        title: "Mach Menu", 
+        file: "assets/songs/MW Main Menu.mp3", 
+        tags: ["electronic", "chill", "spacey", "my favorites"] 
     },
     { 
         title: "Laelyn Battle", 
