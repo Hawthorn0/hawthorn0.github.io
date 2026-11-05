@@ -346,8 +346,8 @@ const mp3Files = [
     },
     { 
         title: "Desert Factory", 
-        file: "assets/songs/Arctic Winds.mp3", 
-        tags: ["chill", "deserty"] 
+        file: "assets/songs/Factory Game BGM.mp3", 
+        tags: ["chill", "ambient", "deserty"] 
     },
     { 
         title: "Articos", 
