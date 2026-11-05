@@ -330,6 +330,11 @@ const mp3Files = [
         tags: ["chill", "icy"] 
     },
     { 
+        title: "Desert Factory", 
+        file: "assets/songs/Arctic Winds.mp3", 
+        tags: ["chill", "deserty"] 
+    },
+    { 
         title: "Articos", 
         file: "assets/songs/Articos.mp3", 
         tags: ["chill", "ambient", "icy"] 
