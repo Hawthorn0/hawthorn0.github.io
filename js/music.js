@@ -20,6 +20,11 @@ const mp3Files = [
         tags: ["chill", "upbeat", "cavey", "my favorites"] 
     },
     { 
+        title: "Silver Blow", 
+        file: "assets/songs/Silver Blow.mp3", 
+        tags: ["electronic", "vocal", "energetic", "my favorites"] 
+    },
+    { 
         title: "Mercenary", 
         file: "assets/songs/mercenary.mp3", 
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
@@ -90,6 +95,11 @@ const mp3Files = [
         tags: ["electronic", "chill", "spacey", "my favorites"] 
     },
     { 
+        title: "Thing47", 
+        file: "assets/songs/thing47.mp3", 
+        tags: ["electronic", "vocal", "energetic", "upbeat", "my favorites"] 
+    },
+    { 
         title: "Laelyn Battle", 
         file: "assets/songs/PN Laelyn Battle.mp3", 
         tags: ["rock", "energetic", "epic", "bossfight", "my favorites"] 
@@ -142,7 +152,7 @@ const mp3Files = [
     { 
         title: "Penrose Main", 
         file: "assets/songs/PN Penrose Battle.mp3", 
-        tags: ["chill", "waltz", "ambient"] 
+        tags: ["chill", "waltz"] 
     },
     { 
         title: "Laelyn Main", 
@@ -168,6 +178,11 @@ const mp3Files = [
         title: "Building Time", 
         file: "assets/songs/Building Time.mp3", 
         tags: ["chill", "upbeat", "grassy", "foresty", "deserty"] 
+    },
+    { 
+        title: "Rimworld esque", 
+        file: "assets/songs/rimworld esque.mp3", 
+        tags: ["chill", "ambient", "strange", "deserty"] 
     },
     { 
         title: "Free Orchestra Test", 
@@ -448,6 +463,11 @@ const mp3Files = [
         title: "Overdrive", 
         file: "assets/songs/overdrive.mp3", 
         tags: ["electronic", "energetic"] 
+    },
+    { 
+        title: "Reeds at Dusk", 
+        file: "assets/songs/reeds at dusk.mp3", 
+        tags: ["chill", "ambient"] 
     },
     { 
         title: "Overgrown Heart", 
